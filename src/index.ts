@@ -25,3 +25,13 @@ console.log(result)
 const result_2021 = calcTax(100)
 console.log(result_2021);
 
+// object
+let person: {
+  readonly id: number;
+  name: string;
+  age?: number; // `?` makes it to be optional
+  address?: string;
+} = {
+  id: 1,
+  name: 'Kyohei'
+};
