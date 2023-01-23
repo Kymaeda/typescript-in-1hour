@@ -8,3 +8,8 @@ let numbers: number[] = [1, 2, 3]
 
 // tuple
 let user1: [number, string] = [1, 'kyohei']
+
+// enum
+// NOTE: use PascalCase
+enum Size { Small, Medium, Large }
+console.log(Size.Small)
